@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TestArtinity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="statements">Заявки</string>
+    <string name="detail_information">Детальная информация</string>
+
+
+    <string name="Roboto_Regular" translatable="false">sans-serif</string>
+    <string name="statement_status">Статус зявки</string>
+    <string name="full_name">ФИО</string>
+    <string name="detail_description">Детальное описание</string>
+    <string name="solution">Решение</string>
+    <string name="date_supply_statement">Дата подачи заявки</string>
+    <string name="planning_finish_time">Планируемое время завершения</string>
+    <string name="fact_time_complete_statement">Фактическое время выполнения заявки</string>
+
+</resources>

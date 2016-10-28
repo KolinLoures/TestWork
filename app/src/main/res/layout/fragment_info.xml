@@ -1,0 +1,132 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kolin.testartinity.presentation.screeninfo.fragment.InfoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/info_fragment_progress_bar"
+        android:layout_gravity="center_horizontal|center_vertical"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/info_fragment_l"
+            android:orientation="vertical"
+            android:paddingTop="16dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/statement_status"
+                style="@style/TextViewSection"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Какой то статус"
+                android:id="@+id/info_fragment_status"
+                style="@style/TextViewSectionContent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_height="wrap_content"
+                android:text="@string/full_name"
+                style="@style/TextViewSection"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                tools:text="Иванов Иван Иванович"
+                android:id="@+id/info_fragment_full_name"
+                style="@style/TextViewSectionContent"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_height="wrap_content"
+                android:text="@string/detail_description"
+                style="@style/TextViewSection"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Какое то описание"
+                android:id="@+id/info_fragment_description"
+                style="@style/TextViewSectionContent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_height="wrap_content"
+                android:text="@string/solution"
+                style="@style/TextViewSection"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/info_fragment_solution"
+                style="@style/TextViewSectionContent"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_height="wrap_content"
+                android:text="@string/date_supply_statement"
+                style="@style/TextViewSection"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Какая то дата"
+                android:id="@+id/info_fragment_date_supply"
+                style="@style/TextViewSectionContent"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_height="wrap_content"
+                android:text="@string/planning_finish_time"
+                style="@style/TextViewSection"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Какая то дата"
+                android:id="@+id/info_fragment_finish_time"
+                style="@style/TextViewSectionContent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_height="wrap_content"
+                android:text="@string/fact_time_complete_statement"
+                style="@style/TextViewSection"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Какое то описание"
+                android:id="@+id/info_fragment_complete_time"
+                style="@style/TextViewSectionContent"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
